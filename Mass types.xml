@@ -737,59 +737,59 @@
         <value name="Tier4"/>
     </type>
     <type name="MassLightRatnik">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <category name="floor"/>
-        <category name="ground"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
     </type>
     <type name="MassLightRatnik_Desert">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <category name="floor"/>
-        <category name="ground"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
     </type>
     <type name="MassLightRatnik_Black">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <category name="floor"/>
-        <category name="ground"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
     </type>
     <type name="MassLightRatnik_Olive">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <category name="floor"/>
-        <category name="ground"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
     </type>
     <type name="MassRatnik">
@@ -802,7 +802,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <category name="floor"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
@@ -817,7 +818,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <category name="floor"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
@@ -832,8 +834,24 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <category name="floor"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="MassWinterTortilla">
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -1033,10 +1051,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MassCBhelmet">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>900</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1044,11 +1062,12 @@
         <category name="clothes"/>
         <category name="floor"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="MassCBhelmet_Green">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>900</restock>
         <min>1</min>
@@ -1225,7 +1244,7 @@
         <usage name="Village"/>
     </type>
     <type name="Mass_THICCWeaponCase">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>3888000</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -1239,7 +1258,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Mass_WeaponCase">
-        <nominal>6</nominal>
+        <nominal>10</nominal>
         <lifetime>3888000</lifetime>
         <restock>7200</restock>
         <min>3</min>
@@ -1255,10 +1274,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Mass_JunkBox">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1504,10 +1523,10 @@
         <value name="Tier1"/>
     </type>
     <type name="MassTMP153">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1526,10 +1545,10 @@
         <category name="weapons"/>
     </type>
     <type name="Mass_Spas12">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1851,17 +1870,16 @@
         <value name="Tier4"/>
     </type>
     <type name="Mass_AN94">
-        <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>300</restock>
+        <min>4</min>
+        <quantmin>30</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
-        <usage name="military"/>
+        <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
@@ -1883,10 +1901,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Mass357M1911">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1928,10 +1946,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="Mass_ASVAL">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1943,10 +1961,10 @@
         <value name="Tier2"/>
     </type>
 	<type name="Mass_SVU">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1955,6 +1973,7 @@
         <tag name="floor"/>
         <usage name="Underground"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="MassType81">
@@ -2011,10 +2030,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="Mass_RPK74">
-        <nominal>8</nominal>
+        <nominal>7</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2039,8 +2058,8 @@
         <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="Mass_Mag_PKM_100Rnd">
         <nominal>7</nominal>
@@ -2054,8 +2073,8 @@
         <category name="weapons"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="Mass_RugerPrecision">
         <nominal>8</nominal>
@@ -2162,10 +2181,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Mass357M1911Mag">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2374,10 +2393,10 @@
     </type>
 	<!--spawnabletypes-->
     <type name="MassTacticalBag">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2388,10 +2407,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MassTacticalBagBlack">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2401,11 +2420,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MassTacticalBagWD">
-        <nominal>2</nominal>
+    <type name="MassTacticalBagGreen">
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

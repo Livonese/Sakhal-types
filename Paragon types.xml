@@ -749,10 +749,10 @@
         <usage name="Special"/>
     </type>
 	<type name="Paragon_MPX_Black">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -764,10 +764,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="Paragon_Mag_MPX_30Rnd">
-        <nominal>5</nominal>
+        <nominal>7</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -779,7 +779,21 @@
         <value name="Tier4"/>
     </type>
 	<type name="Paragon_Vector_Black">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons" />
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+	<type name="Paragon_Vector_Tan">
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -792,22 +806,8 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	<type name="Paragon_Vector_Tan">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons" />
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
 	<type name="Paragon_Mag_Vector_30Rnd">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -822,10 +822,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="Paragon_Scorpion_Black">
-        <nominal>7</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>3</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -838,10 +838,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="Paragon_Mag_Scorpion_30Rnd">
-        <nominal>7</nominal>
+        <nominal>12</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>3</min>
+        <min>6</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -884,10 +884,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="Paragon_HK">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>240</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -895,13 +895,14 @@
         <category name="weapons" />
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="Paragon_Mag_HK_25Rnd">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>180</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -909,13 +910,14 @@
         <category name="weapons" />
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="Paragon_20mmBox_10Rnd">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>28000</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -932,7 +934,7 @@
         <restock>0</restock>
         <min>8</min>
         <quantmin>34</quantmin>
-        <quantmax>70</quantmax>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons" />
@@ -1281,10 +1283,10 @@
         <usage name="Special"/>
     </type>
 	<type name="Paragon_PKM">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1292,13 +1294,14 @@
         <category name="weapons" />
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="Paragon_Mag_PKM_250Rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>1500</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>5</quantmin>
         <quantmax>20</quantmax>
         <cost>100</cost>
@@ -1306,6 +1309,7 @@
         <category name="weapons" />
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="Paragon_PKP">

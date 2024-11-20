@@ -15,12 +15,12 @@
 <!-- 1 AMMO -->
 	<!-- Garand -->
     <type name="GCGN_Ammo_3006">
-        <nominal>60</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>45</min>
-        <quantmin>10</quantmin>
-        <quantmax>23</quantmax>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -39,12 +39,12 @@
     </type>
 	<!-- VSSK -->
     <type name="SNAFU_Ammo_127x55mmAP">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>3</min>
-        <quantmin>08</quantmin>
-        <quantmax>21</quantmax>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -60,8 +60,8 @@
         <lifetime>10800</lifetime>
         <restock>0</restock>
         <min>12</min>
-        <quantmin>10</quantmin>
-        <quantmax>25</quantmax>
+        <quantmin>20</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -85,8 +85,8 @@
         <lifetime>10800</lifetime>
         <restock>300</restock>
         <min>5</min>
-        <quantmin>08</quantmin>
-        <quantmax>21</quantmax>
+        <quantmin>10</quantmin>
+        <quantmax>25</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -99,8 +99,8 @@
         <lifetime>14400</lifetime>
         <restock>480</restock>
         <min>12</min>
-        <quantmin>04</quantmin>
-        <quantmax>14</quantmax>
+        <quantmin>10</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -118,6 +118,23 @@
 <!-- 2 AR & LMG / MG (assault rifles & machineguns) -->
     <!-- 545x39 -->
     <type name="SNAFU_AEK545_Gun">
+        <nominal>12</nominal>
+        <lifetime>14400</lifetime>
+        <restock>900</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="SNAFU_AK12A">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
@@ -134,27 +151,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="SNAFU_AK12A">
-        <nominal>5</nominal>
-        <lifetime>14400</lifetime>
-        <restock>900</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
     <type name="SNAFU_RPK16_Black">
-        <nominal>6</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>3</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -163,14 +164,15 @@
         <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_RPK16_Green">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -178,15 +180,14 @@
         <category name="weapons"/>
         <tag name="floor"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_RPK16_Tan">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -194,7 +195,6 @@
         <category name="weapons"/>
         <tag name="floor"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -286,10 +286,10 @@
         <usage name="Special"/>
     </type>
     <type name="IA2_Gun">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -360,10 +360,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_ADAR_Modular16_GUN">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -376,10 +376,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_AK19">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -392,10 +392,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_AK5C">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -403,6 +403,7 @@
         <category name="weapons"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -465,7 +466,6 @@
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="SNAFU_CZ805_Gun">
         <nominal>2</nominal>
@@ -495,6 +495,7 @@
         <category name="weapons"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -608,7 +609,7 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="SNAFU_U100">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -626,10 +627,10 @@
     <!-- 556x45 -->
     <!-- 762x39 -->
     <type name="SNAFU_AK103A">
-        <nominal>8</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -638,11 +639,12 @@
         <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFURPD">
-        <nominal>6</nominal>
+        <nominal>8</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
         <min>3</min>
@@ -728,10 +730,10 @@
 <!-- 2 AR & LMG / MG (assault rifles & machineguns) -->
 <!-- 3 LONG RANGE (308 + 338 + 408 + 50 cal. & 20mm) -->
     <type name="GCGN_M1Garand">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -773,10 +775,10 @@
         <value name="Tier4"/>
     </type>
     <type name="GCGN_VEPR">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>720</restock>
-        <min>20</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -785,9 +787,9 @@
         <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Village"/>
-        <usage name="Hunting"/>
-        <value name="Tier1"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="SNAFUVSSK">
         <nominal>2</nominal>
@@ -957,10 +959,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="SNAFU_AK308">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -968,23 +970,25 @@
         <category name="weapons"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFUDVL10M2">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>1200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_FRF2">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
         <min>0</min>
@@ -995,10 +999,11 @@
         <category name="weapons"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_G3A3">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
         <min>0</min>
@@ -1036,10 +1041,10 @@
         <category name="weapons"/>
     </type>
     <type name="SNAFU_M76">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1294,7 +1299,7 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFUT5000_Wood_GUN">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
         <min>0</min>
@@ -1322,10 +1327,10 @@
         <usage name="Special"/>
     </type>
     <type name="SNAFU_AWM_GUN">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1334,6 +1339,7 @@
         <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="SNAFU_MAR10_Black_GUN">
@@ -1453,10 +1459,10 @@
 <!-- 3 LONG RANGE (308 + 338 + 408 + 50 cal. & 20mm) -->
 <!-- 5 OPTICS -->
     <type name="GCGN_M84_Optic">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1467,10 +1473,10 @@
     </type>
 	<!-- x0 /no zoom scope -->
     <type name="SNAFU_Aimpoint_ACO">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1496,10 +1502,10 @@
         <category name="weapons"/>
     </type>
     <type name="SNAFU_Aimpoint_M5">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1507,6 +1513,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -1526,10 +1533,10 @@
         <category name="weapons"/>
     </type>
     <type name="SNAFU_EOTech_EXPS3">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1557,10 +1564,10 @@
         <category name="weapons"/>
     </type>
     <type name="SNAFU_Kobra">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1573,10 +1580,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="SNAFU_IRONMODOptic">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <restock>1800</restock>
         <lifetime>10800</lifetime>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1585,10 +1592,10 @@
         <usage name="Military"/>
     </type>
     <type name="SNAFU_Walther">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1633,10 +1640,10 @@
 	<!-- x0 /no zoom scope -->
 	<!-- x4 zoom -->
     <type name="SNAFU_Trijicon">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1714,10 +1721,10 @@
         <category name="weapons"/>
     </type>
     <type name="SNAFU_Elcan">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1748,10 +1755,10 @@
 	<!-- x4 zoom -->
 	<!-- x6 zoom -->
     <type name="SNAFU_Tango6T_Black">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1760,16 +1767,29 @@
         <tag name="floor"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_Tango6T_Snow">
-        <lifetime>10800</lifetime>
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1200</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="SNAFU_Tango6T_Tan">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
         <min>0</min>
@@ -1785,7 +1805,7 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_Tango6T_Wood">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
         <min>0</min>
@@ -1885,6 +1905,7 @@
         <tag name="floor"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -1934,6 +1955,7 @@
         <tag name="floor"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -1982,6 +2004,7 @@
         <tag name="floor"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_AKHuntingOptic">
@@ -2021,10 +2044,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_Nightforce">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>1200</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2033,6 +2056,7 @@
         <tag name="floor"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_AKNightforce">
@@ -2121,10 +2145,10 @@
         <category name="weapons"/>
     </type>
 	<type name="SNAFU_Fort12_GUN">
-        <nominal>40</nominal>
+        <nominal>60</nominal>
         <lifetime>14400</lifetime>
         <restock>250</restock>
-        <min>30</min>
+        <min>45</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2136,10 +2160,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="SNAFU_Fort12_12rnd_Mag">
-        <nominal>45</nominal>
+        <nominal>65</nominal>
         <lifetime>10800</lifetime>
         <restock>260</restock>
-        <min>30</min>
+        <min>50</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2179,10 +2203,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_PL14HQP_Mag">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>6</min>
         <quantmin>20</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2196,10 +2220,10 @@
     </type>
 	<!-- 357 -->
     <type name="SNAFUChiappaRhino">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2255,10 +2279,10 @@
 <!-- 5 PISTOL -->
 <!-- 6 SHOTGUNS -->
     <type name="Spas12_Gun">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2268,10 +2292,10 @@
         <usage name="Military"/>
     </type>
 	<type name="GCGN_BenelliM4">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>15</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2369,14 +2393,14 @@
     <!-- 6 SHOTGUNS -->
     <!-- 7 SMG -->
     <type name="GCGN_Vityaz">
-        <nominal>10</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>480</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
@@ -2488,10 +2512,10 @@
     <!-- 7 SMG -->
     <!-- 8 WEAPON ATTACHMENTS -->
     <type name="GCGN_M1Garand_Muzzle">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2503,10 +2527,10 @@
         <value name="Tier3"/>
     </type>
     <type name="GCGN_M1Garand_Supp">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2518,10 +2542,10 @@
         <value name="Tier3"/>
     </type>
     <type name="GCGN_M1Garand_Bayonet">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2533,10 +2557,10 @@
         <value name="Tier3"/>
     </type>
     <type name="GCGN_M1Garand_FlashHider">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2548,10 +2572,10 @@
         <value name="Tier3"/>
     </type>
     <type name="GCGN_M1Garand_FH">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3658,16 +3682,17 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_AK19_Stock">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_AK_AR_Stock">
@@ -4008,10 +4033,10 @@
         <usage name="Special"/>
     </type>
     <type name="SNHK417_Mag">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4022,10 +4047,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_Saint_Mag">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4090,14 +4115,14 @@
         <value name="Tier4"/>
     </type>
     <type name="GCGN_Vityaz_Mag">
-        <nominal>10</nominal>
+        <nominal>12</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>6</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
@@ -4235,10 +4260,10 @@
         <usage name="Customevent"/>
     </type>
     <type name="SNAFUASh12_20rdMag">
-        <nominal>8</nominal>
+        <nominal>10</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4250,10 +4275,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFUDVL10M2_5rdMag">
-        <nominal>8</nominal>
+        <nominal>10</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>3</min>
+        <min>4</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4265,10 +4290,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFUGevar_10rdMag">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4279,10 +4304,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="SNAFUKivaari_10rdMag">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>2700</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4300,9 +4325,10 @@
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="1"/>
+        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="SNAFUM24_Mag">
         <nominal>1</nominal>
@@ -4341,16 +4367,17 @@
         <usage name="Special"/>
     </type>
     <type name="SNAFURPD_100rdMag">
-        <nominal>6</nominal>
+        <nominal>8</nominal>
         <lifetime>10800</lifetime>
         <restock>200</restock>
-        <min>3</min>
+        <min>4</min>
         <quantmin>10</quantmin>
         <quantmax>25</quantmax>
         <cost>100</cost>
         <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="transportweapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -4394,10 +4421,10 @@
         <usage name="Special"/>
     </type>
     <type name="GCGN_VEPR_10rnd">
-        <nominal>35</nominal>
+        <nominal>20</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>25</min>
+        <min>12</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -4405,8 +4432,9 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Village"/>
-        <usage name="Hunting"/>
-        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="SNAFUVSSK_5rdMag">
         <nominal>4</nominal>
@@ -4439,10 +4467,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_AK12_Mag">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4454,10 +4482,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_AK308_Mag">
-        <nominal>5</nominal>
+        <nominal>9</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4484,10 +4512,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_FRF2_Mag">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4495,6 +4523,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_G3A3_20rdMag">
@@ -4540,7 +4569,7 @@
         <usage name="Special"/>
     </type>
     <type name="SNAFU_M76_Mag">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -4623,10 +4652,10 @@
         <category name="weapons"/>
     </type>
     <type name="SNAFU_RPK16_Black_Mag">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4647,6 +4676,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_RPK16_Tan_Mag">
@@ -4660,6 +4691,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="SNAFU_U100_Mag">
@@ -4703,10 +4736,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SNAFUUzi_32rdMag">
-        <nominal>25</nominal>
+        <nominal>30</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
-        <min>15</min>
+        <min>20</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>

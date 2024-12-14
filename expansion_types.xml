@@ -2319,10 +2319,10 @@
 	<!-- VEHICLE PARTS -->
 	<!-- glowplug spawn from both vanilla & expansion types -->
     <type name="GlowPlug">
-        <nominal>35</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3971,8 +3971,8 @@
         <value name="Tier4"/>
     </type>
 	<type name="Expansion_ANPEQ15_Red">
-        <nominal>6</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>7</nominal>
+        <lifetime>10800</lifetime>
         <restock>800</restock>
         <min>3</min>
         <quantmin>-1</quantmin>
@@ -3981,7 +3981,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -4000,8 +3999,8 @@
         <value name=""/>
     </type>
 	<type name="Expansion_ANPEQ15_GreenNV">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
         <restock>800</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -4215,10 +4214,10 @@
         <value name="Tier2"/>
     </type>
 	<type name="Expansion_MP5">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4228,10 +4227,10 @@
         <usage name="Police"/>
     </type>
 	<type name="Expansion_MP5SD">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4240,10 +4239,10 @@
         <usage name="Police"/>
     </type>
 	<type name="Expansion_MP5_RailAtt">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4266,17 +4265,16 @@
         <value name="Tier2"/>
     </type>
 	<type name="Expansion_Kedr">
-        <nominal>5</nominal>
+        <nominal>9</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Police"/>
-        <value name="Tier1"/>
     </type>
 	<type name="Expansion_VityazSN">
         <nominal>0</nominal>
@@ -4354,10 +4352,10 @@
     </type>
 	<!-- SHOTGUNS -->
 	<type name="Expansion_BenelliM4">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4367,7 +4365,7 @@
 	</type>
 	<!-- SNIPER RIFLES -->
     <type name="Expansion_AWM">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>900</restock>
         <min>2</min>
@@ -4584,6 +4582,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
@@ -4690,7 +4689,7 @@
         <value name="Tier2"/>
 	</type>
 	<type name="Mag_Expansion_G36_30Rnd">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -4705,17 +4704,16 @@
         <value name="Tier4"/>
     </type>
 	<type name="Mag_Expansion_Kedr_20Rnd">
-        <nominal>3</nominal>
+        <nominal>8</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Police"/>
-        <value name="Tier1"/>
 	</type>
 	<type name="Mag_Expansion_MP7_40Rnd">
         <nominal>0</nominal>
@@ -5241,22 +5239,21 @@
         <usage name="Village"/>
     </type>
 	<type name="ExpansionGPS">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
+        <usage name="Coast"/>
+        <usage name="Hunting"/>
         <usage name="Military"/>
         <usage name="Police"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="ExpansionBoltCutters">
         <nominal>5</nominal>
@@ -5297,10 +5294,10 @@
 	<!-- MISC END -->
 	<!-- CONSUMABLES TYPES -->
 	<type name="ExpansionMilkBottle">
-        <nominal>25</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5313,10 +5310,10 @@
     </type>
 	<!--10slots water 2% energy 2%-->
 	<type name="ExpansionBread1">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5332,10 +5329,10 @@
 	<!--10slots water 2% energy 2%-->
 	<!--8slots water 2% energy 1%-->
 	<type name="ExpansionBread2">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5350,10 +5347,10 @@
 	<!--8slots water 2% energy 1%-->
 	<!--8slots water 2% energy 1%-->
 	<type name="ExpansionBread3">
-        <nominal>20</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5370,10 +5367,10 @@
 	<!--8slots water 2% energy 1%-->
 	<!--4slots water 5% energy 6%-->
 	<type name="ExpansionCheese1">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5389,10 +5386,10 @@
 	<!--4slots water 5% energy 6%-->
 	<!--6slots water 5% energy 6%-->
 	<type name="ExpansionCheese2">
-        <nominal>20</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5406,10 +5403,10 @@
 	<!--6slots water 5% energy 6%-->
 	<!--4slots water 5% energy 6%-->
 	<type name="ExpansionCheese3">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5424,10 +5421,10 @@
 	<!--4slots water 5% energy 6%-->
 	<!--4slots water 4% energy 6%-->
 	<type name="ExpansionCheese4">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

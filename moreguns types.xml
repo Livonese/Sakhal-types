@@ -46,29 +46,27 @@
         <value name="Tier4"/>
     </type>
     <type name="Glock19_Desert">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
         <usage name="Police"/>
     </type>
     <type name="Glock19_Olive">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
         <usage name="Police"/>
     </type>
     <type name="FNX45_DESERT">
@@ -276,10 +274,10 @@
         <value name="Tier4"/>
     </type>
     <type name="CombatStealthBoots">
-        <nominal>12</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>6</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -287,6 +285,7 @@
         <category name="clothes"/>
         <tag name="floor"/>
         <usage name="Hunting"/>
+        <value name="Tier1"/>
     </type>
     <type name="MilitaryBelt_BLACK">
         <nominal>0</nominal>

@@ -162,10 +162,10 @@
     </type>
 	<!--Tokarev-->
 	<type name="TWP_Ammo_762x25">
-        <nominal>100</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>90</min>
+        <min>0</min>
         <quantmin>25</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -178,10 +178,10 @@
         <value name="Tier2"/>
     </type>
 	<type name="TWP_AmmoBox_762x25_30Rnd">
-        <nominal>35</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1210,17 +1210,20 @@
         <value name="Tier4"/>
     </type>
 	<type name="TWP_Remington700">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="floor"/>
+        <usage name="Farm"/>
         <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
 	<type name="TWP_RemingtonMSR">
         <nominal>1</nominal>
@@ -1237,16 +1240,20 @@
         <value name="Tier4"/>
     </type>
 	<type name="TWP_Sako75">
-        <nominal>10</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>5</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <usage name="Village"/>
+        <usage name="Farm"/>
         <usage name="Hunting"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
 	<type name="TWP_ScarH">
         <nominal>1</nominal>
@@ -1655,7 +1662,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Village"/>
+        <usage name="Police"/>
         <value name="Tier1"/>
     </type>
     <type name="TWP_Glock42">
@@ -1971,10 +1978,10 @@
     </type>
 	<!-- new pistol 2024 -->
     <type name="TWP_P8">
-        <nominal>30</nominal>
+        <nominal>65</nominal>
         <lifetime>14400</lifetime>
         <restock>40</restock>
-        <min>20</min>
+        <min>45</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2007,16 +2014,17 @@
         <category name="weapons"/>
     </type>
     <type name="TWP_WaltherQ5">
-        <nominal>20</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>100</restock>
-        <min>10</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Town"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2117,10 +2125,10 @@
 	<!-- 9x19 / 9mm -->
 	<!-- 762x25 -->
 	<type name="TWP_Tokarev">
-        <nominal>40</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>240</restock>
-        <min>30</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2132,10 +2140,10 @@
         <value name="Tier1"/>
     </type>
 	<type name="TWP_Tokarev_mag_8Rnd">
-        <nominal>45</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>210</restock>
-        <min>35</min>
+        <min>0</min>
         <quantmin>25</quantmin>
         <quantmax>75</quantmax>
         <cost>100</cost>
@@ -2150,10 +2158,10 @@
 <!-- 5 PISTOL -->
 	<!--Tokarev riffle 1930-->
 	<type name="TWP_SVT38">
-        <nominal>45</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>200</restock>
-        <min>30</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2165,10 +2173,10 @@
         <value name="Tier1"/>
     </type>
 	<type name="TWP_SVT38_mag_10Rnd">
-        <nominal>55</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
-        <min>40</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2530,10 +2538,10 @@
 <!-- 7 SMG -->
 	<!-- 762x25 -->
 	<type name="TWP_PPSH">
-        <nominal>20</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>240</restock>
-        <min>12</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2545,10 +2553,10 @@
         <value name="Tier2"/>
     </type>
 	<type name="TWP_PPSH_mag_50Rnd">
-        <nominal>25</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>210</restock>
-        <min>15</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2686,10 +2694,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TWP_PistolSuppressor">
-        <nominal>25</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>15</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2699,6 +2707,9 @@
         <tag name="floor"/>
         <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 	<type name="TWP_AX50_Bttstck">
         <nominal>1</nominal>
@@ -4300,10 +4311,10 @@
         <usage name="Military"/>
     </type>
     <type name="TWP_P8_mag_15Rnd">
-        <nominal>40</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>50</restock>
-        <min>25</min>
+        <min>50</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -4311,6 +4322,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -4431,10 +4443,10 @@
         <category name="weapons"/>
     </type>
     <type name="TWP_WaltherQ5_mag_15Rnd">
-        <nominal>20</nominal>
+        <nominal>45</nominal>
         <lifetime>28800</lifetime>
         <restock>100</restock>
-        <min>12</min>
+        <min>25</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -4442,6 +4454,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Town"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
